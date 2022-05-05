@@ -1,8 +1,6 @@
-const fs = require('fs')
 const express=require('express')
 const path= require('path')
 const cors=require('cors')
-// const lookup = require('mime-types').lookup;
 const Text=require('./controllers/convertToCode');
 const Code=require('./controllers/convertToText')
 const PORT=process.env.PORT || 3000;

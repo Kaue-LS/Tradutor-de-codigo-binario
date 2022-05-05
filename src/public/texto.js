@@ -1,5 +1,5 @@
 
-
+// Converter texto para codigo binario
 
 
 const Codificar=async()=>{
@@ -10,7 +10,6 @@ var dado=document.getElementById('Area-Text').value
     let data={
         texto:textoDivido
     }
-    // console.log(data)
 
     const response=await fetch('http://localhost:3000/api/code',{
         method:'POST',
