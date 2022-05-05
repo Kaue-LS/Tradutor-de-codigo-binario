@@ -227,8 +227,63 @@
     {
         "caractere": " ",
         "codigo": " "
-    }
+    },
+    {
+        "caractere": "",
+        "codigo": ""
+    },
 
+
+
+
+
+
+
+
+    {
+        "caractere": "0",
+        "codigo": "00000000"
+    },
+    {
+        "caractere": "1",
+        "codigo": "00000001"
+    },
+    {
+        "caractere": "2",
+        "codigo": "00000010"
+    },
+    {
+        "caractere": "3",
+        "codigo": "00000011"
+    },
+    {
+        "caractere": "4",
+        "codigo": "00000100"
+    },
+    {
+        "caractere": "5",
+        "codigo": "00000101"
+    },
+    {
+        "caractere": "6",
+        "codigo": "00000110"
+    },
+    {
+        "caractere": "7",
+        "codigo": "00000111"
+    },
+    {
+        "caractere": "8",
+        "codigo": "00001000"
+    },
+    {
+        "caractere": "9",
+        "codigo": "00001001"
+    },
+    {
+        "caractere": "10",
+        "codigo": "00001010"
+    }
 
 
 ]
