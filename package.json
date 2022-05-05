@@ -4,7 +4,8 @@
   "description": "Tradutor de código binário",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/Kaue-LS/Tradutor-de-codigo-binario#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
     "mime-types": "^2.1.35"
   },
   "devDependencies": {

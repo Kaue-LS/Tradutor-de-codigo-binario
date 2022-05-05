@@ -1,60 +1,44 @@
-const http = require('http');
-const url = require('url')
 const fs = require('fs')
+const express=require('express')
+const path= require('path')
+const cors=require('cors')
+// const lookup = require('mime-types').lookup;
+const Text=require('./controllers/convertToCode');
+const Code=require('./controllers/convertToText')
+const PORT=process.env.PORT || 3000;
 
-
-// npm i mime-types
-// Ele serve para automaticamente identificar o tipo de arquivo vai carregar
-const lookup = require('mime-types').lookup;
-
-
-const server = http.createServer((req,res)=>{
-    // Recebendo a request e enviando o arquivo static
-    // from a folder called 'public'
-
-    let parseURL=url.parse(req.url,true);
-    // Remover the os caminhos e o slashes
-
-    let path = parseURL.path.replace(/^\/+|\/+$/g,"");
-    // /index.html
-    // /main.css
-    // /main.js
+const app=express()
+app.use(express.json())
+app.use((req,res,next)=>{
+    res.header("Access-Control-Allow-Origin",'*')
+    res.header('Access-Control-Allow-Methods','GET,PUT,POST,DELETE')
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept,token");
     
-    if (path ===""){
-        path= "index.html";
-    }
-    console.log(`Requested path ${path}`);
-
-    let file= __dirname + "/src/public/" + path;
-
-    fs.readFile(file,(err,content)=>{
-        if(err){
-            console.log('File not found: ' + file);
-            res.writeHead(404);
-            res.end();
-        }else{
-            // Especificando o tipo de conteudo 
-            console.log('returning'+path)
-            res.setHeader("X-Content-Type-Options", "nosniff");
-            let mime= lookup(path)
-            res.writeHead(200,{'Content-Type':mime})
-            // Sem o mimeTypes
-            // switch(path){
-            //     case 'main.css':
-            //         res.writeHead(200,{'Content-type':"text/css"})
-            //         break;
-            //     case 'main.js':
-            //         res.writeHead(200,{'Content-type':"application/javascript"})
-            //         break;
-            //     case 'index.html':
-            //         res.writeHead(200,{'Content-type':"text/html"})
-                
-            // }
-            res.end(content);
-        }
-    })
+    app.use(cors())
+    next()
 })
 
-server.listen(3000,'localhost',()=>{
+
+
+app.get('/',(req,res)=>{
+   res.sendFile(path.join(__dirname+'/src/public/index.html'))
+})
+app.get('/main.css',(req,res)=>{
+    res.sendFile(path.join(__dirname+'/src/public/main.css'))
+ })
+app.get('/codigo.js',(req,res)=>{
+    res.sendFile(path.join(__dirname+'/src/public/codigo.js'))
+ })
+ app.get('/texto.js',(req,res)=>{
+    res.sendFile(path.join(__dirname+'/src/public/texto.js'))
+ })
+app.post('/api/code',Text.Codefy)
+app.post('/api/text',Code.Textfy)
+
+
+
+
+
+app.listen(PORT,()=>{
     console.log('listening on port 3000');
 })
