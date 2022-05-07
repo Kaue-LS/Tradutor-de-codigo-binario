@@ -236,6 +236,152 @@
 
 
 
+   {
+        "caractere": "´",
+        "codigo": "11101111"
+    },
+    {
+        "caractere": "`",
+        "codigo": "01100000"
+    },
+    {
+        "caractere": "^",
+        "codigo": "01011110"
+    },
+    {
+        "caractere": "~",
+        "codigo": "01111110"
+    },
+    {
+        "caractere": ":",
+        "codigo": "00111010"
+    },
+    {
+        "caractere": ";",
+        "codigo": "00111011"
+    },
+    {
+        "caractere": "[",
+        "codigo": "01011011"
+    },
+    {
+        "caractere": "]",
+        "codigo": "01011101"
+    },
+    {
+        "caractere": "}",
+        "codigo": "01111101"
+    },
+    {
+        "caractere": "{",
+        "codigo": "01111011"
+    },
+    {
+        "caractere": "(",
+        "codigo": "00101000"
+    },
+    {
+        "caractere": ")",
+        "codigo": "00101001"
+    },
+    {
+        "caractere": "º",
+        "codigo": "10100111"
+    },
+    {
+        "caractere": "ª",
+        "codigo": "10100110"
+    },
+    {
+        "caractere": ".",
+        "codigo": "00101110"
+    },
+    {
+        "caractere": ",",
+        "codigo": "00101100"
+    },
+    {
+        "caractere": "|",
+        "codigo": "01111100"
+    },
+    {
+        "caractere": "/",
+        "codigo": "00101111"
+    },
+    {
+        "caractere": "&",
+        "codigo": "00100110"
+    },
+    {
+        "caractere": "'",
+        "codigo": "00100111"
+    },
+    {
+        "caractere": "!",
+        "codigo": "00100001"
+    },
+    {
+        "caractere": "@",
+        "codigo": "01000000"
+    },
+    {
+        "caractere": "#",
+        "codigo": "00100011"
+    },
+    {
+        "caractere": "$",
+        "codigo": "00100100"
+    },
+    {
+        "caractere": "%",
+        "codigo": "00100101"
+    },
+    {
+        "caractere": "¨",
+        "codigo": "11111001"
+    },
+    {
+        "caractere": "&",
+        "codigo": "00100110"
+    },
+    {
+        "caractere": "*",
+        "codigo": "00101010 00101010"
+    },
+    {
+        "caractere": "_",
+        "codigo": "01011111"
+    },
+    {
+        "caractere": "§",
+        "codigo": "11110101"
+    },
+    {
+        "caractere": "¢",
+        "codigo": "10111101"
+    },
+    {
+        "caractere": "£",
+        "codigo": "10011100"
+    },
+    {
+        "caractere": "¬",
+        "codigo": "10101010"
+    },
+
+    {
+        "caractere": "+",
+        "codigo": "00101011"
+    },
+    {
+        "caractere": "-",
+        "codigo": "00101101"
+    },
+    {
+        "caractere": "=",
+        "codigo": "00111101"
+    },
+
 
 
 

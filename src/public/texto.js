@@ -25,7 +25,7 @@ var dado=document.getElementById('Area-Text').value
             alert(result.message)
             let codigo=result.ListaCodigo
             let res=codigo.join('')
-            console.log(res)
+            // console.log(res)
             document.getElementById('Area-Code').innerHTML=res
         };
             

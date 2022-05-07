@@ -31,7 +31,7 @@ for(var i=0; i<text.length; i++) {
 }
 let data=text.join('')
 var total=data.split(' ')
-console.log(total)
+// console.log(total)
 var res=[]
 
 for (let i = 0; i < total.length; i++) {
@@ -40,7 +40,7 @@ for (let i = 0; i < total.length; i++) {
     res.splice(res.length,0,' ')
     
 }
-console.log(res)
+// console.log(res)
 
 
 
@@ -60,7 +60,7 @@ const response=await fetch('http://localhost:3000/api/text',{
       alert(result.message)
       let codigo=result.ListaCodigo
       let res=codigo.join('')
-      console.log(res)
+      // console.log(res)
       document.getElementById('Area-Code').innerHTML=res
   };
 }
