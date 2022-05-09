@@ -5,8 +5,8 @@
 const Codificar=async()=>{
 var dado=document.getElementById('Area-Text').value
     
-    let textoSemAcento= dado.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
-    let textoDivido=textoSemAcento.split('')
+    // let textoSemAcento= dado.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+    let textoDivido=dado
     let data={
         texto:textoDivido
     }

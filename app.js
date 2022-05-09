@@ -1,8 +1,8 @@
 const express=require('express')
 const path= require('path')
 const cors=require('cors')
-const Text=require('./controllers/convertToCode');
-const Code=require('./controllers/convertToText')
+const Text=require('./controllers/Codify');
+const Code=require('./controllers/Textfy')
 const PORT=process.env.PORT || 3000;
 
 const app=express()

@@ -210,6 +210,83 @@
 
 
 
+    {
+        "caractere": "á",
+        "codigo": "10100000"
+    },
+    {
+        "caractere": "à",
+        "codigo": "10000101"
+    },
+    {
+        "caractere": "ã",
+        "codigo": "11000110"
+    },
+    {
+        "caractere": "â",
+        "codigo": "10000011"
+    },
+    
+
+    {
+        "caractere": "é",
+        "codigo": "10000010"
+    },
+    {
+        "caractere": "è",
+        "codigo": "10001010"
+    },
+    {
+        "caractere": "ê",
+        "codigo": "10001000"
+    },
+    
+
+   
+    {
+        "caractere": "ì",
+        "codigo": "10001101"
+    },
+    {
+        "caractere": "î",
+        "codigo": "10001100"
+    },
+
+
+    {
+        "caractere": "ó",
+        "codigo": "10100010"
+    },
+    {
+        "caractere": "ò",
+        "codigo": "10010101"
+    },
+    {
+        "caractere": "ô",
+        "codigo": "10010011"
+    },
+    {
+        "caractere": "õ",
+        "codigo": "11100100"
+    },
+
+
+
+    {
+        "caractere": "ú",
+        "codigo": "10100011"
+    },
+    {
+        "caractere": "ù",
+        "codigo": "10010111 10100001"
+    },
+    {
+        "caractere": "û",
+        "codigo": "10010110"
+    },
+
+
+
 
 
 

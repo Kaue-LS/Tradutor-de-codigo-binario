@@ -1,12 +1,10 @@
-// Traduzie codigo para texto
+// Traduzir codigo para texto
 
 const Traduzir=async()=>{
   
 var codigo =document.getElementById('Area-Text').value
 
 var CodigoModificado = codigo.replace(/\s+/g, '');
-var Total = null;
-
 var text = [];
 var res = null
 let num = 8;
