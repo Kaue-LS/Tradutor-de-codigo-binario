@@ -8,13 +8,13 @@
 -As rotas para a API estão no arquivo **app**
 
 # Utilizados no desenvolvimento:
-- [Express.js]('https://www.npmjs.com/package/express')
+- [Express.js] ('https://www.npmjs.com/package/express')
 
-- [Node.js]('https://nodejs.org/en/')
+- [Node.js] ('https://nodejs.org/en/')
 
 - HTML, CSS e JavaScript
 
--[TailwindCSS]('https://tailwindcss.com/')
+- [TailwindCSS] ('https://tailwindcss.com/')
 
 # Como funciona?:
 
