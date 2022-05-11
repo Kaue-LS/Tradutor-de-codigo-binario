@@ -24,11 +24,11 @@ app.get('/',(req,res)=>{
 app.get('/main.css',(req,res)=>{
     res.sendFile(path.join(__dirname+'/src/public/main.css'))
  })
-app.get('/codigo.js',(req,res)=>{
-    res.sendFile(path.join(__dirname+'/src/public/codigo.js'))
+app.get('/codificar.js',(req,res)=>{
+    res.sendFile(path.join(__dirname+'/src/public/Codificar.js'))
  })
- app.get('/texto.js',(req,res)=>{
-    res.sendFile(path.join(__dirname+'/src/public/texto.js'))
+ app.get('/Traduzir.js',(req,res)=>{
+    res.sendFile(path.join(__dirname+'/src/public/Traduzir.js'))
  })
 app.post('/api/code',Text.Codefy)
 app.post('/api/text',Code.Textfy)

@@ -1,4 +1,5 @@
 ## Tradutor de código binário
+-Para iniciar digite no terminal **npm start**
 
 -A Api feita esta na pasta **api**
 
@@ -7,18 +8,20 @@
 -As rotas para a API estão no arquivo **app**
 
 # Utilizados no desenvolvimento:
-- Express.js
+- [Express.js]('https://www.npmjs.com/package/express')
 
-- Node.js
+- [Node.js]('https://nodejs.org/en/')
 
 - HTML, CSS e JavaScript
+
+-[TailwindCSS]('https://tailwindcss.com/')
 
 # Como funciona?:
 
 ## Texto para código binário:
 - Se for para transformar o texto em código, clique no botão 'Codificar'. 
 
-- O processo é mais simples do que traduzir o codigo pra texto. Ele pegar todas as letras do campo e armazena em um Array, para ser encaminhado para o arquivo **convertToCode.js**. Em seguida ele vai procurar se a api criada, possui cada caractere que está sendo enviado para depois enviar o codigo binário dele em um Array junto com os outros.
+- O processo é mais simples do que traduzir o codigo pra texto. Ele pegar todas as letras do campo e armazena em um Array, para ser encaminhado para o arquivo **Codify.js**. Em seguida ele vai procurar se a api criada, possui cada caractere que está sendo enviado para depois enviar o codigo binário dele em um Array junto com os outros.
 
 -Ele respeita até o tanto de espaço que possui entre os textos e letras.
 
